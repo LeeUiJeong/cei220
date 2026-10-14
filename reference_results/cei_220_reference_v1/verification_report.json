@@ -1,0 +1,471 @@
+{
+  "execution_integrity_passed": true,
+  "hypothesis_checks": [
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "mode": "cei_lite",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "mode": "cei_strict",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "mode": "perturbed",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "mode": "cei_lite",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "mode": "cei_strict",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "mode": "perturbed",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "mode": "cei_lite",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "mode": "cei_strict",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "mode": "perturbed",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "mode": "cei_lite",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "mode": "cei_strict",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "main_model_state_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "mode": "perturbed",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236573,
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236574,
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236575,
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236573,
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236574,
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "cifar10",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236575,
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236573,
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236574,
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236575,
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236573,
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236574,
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 1,
+      "check": "seed_internal_reproducibility",
+      "dataset": "fashion_mnist",
+      "expected_unique_hashes": 1,
+      "external_seed": 20236575,
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "cifar10",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_loader_seed",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "cifar10",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_model_seed",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "cifar10",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_loader_seed",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "cifar10",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_model_seed",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "fashion_mnist",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_loader_seed",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "fashion_mnist",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_model_seed",
+      "model": "resnet18_small",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "fashion_mnist",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_loader_seed",
+      "model": "smallcnn",
+      "passed": true
+    },
+    {
+      "actual_unique_hashes": 3,
+      "check": "strong_perturbation_changes_model_state",
+      "dataset": "fashion_mnist",
+      "expected_minimum_unique_hashes": 2,
+      "mode": "perturbed_model_seed",
+      "model": "smallcnn",
+      "passed": true
+    }
+  ],
+  "integrity": {
+    "code_fingerprint_count": 1,
+    "combo_counts": {
+      "cifar10__resnet18_small": {
+        "actual": 55,
+        "expected": 55,
+        "passed": true
+      },
+      "cifar10__smallcnn": {
+        "actual": 55,
+        "expected": 55,
+        "passed": true
+      },
+      "fashion_mnist__resnet18_small": {
+        "actual": 55,
+        "expected": 55,
+        "passed": true
+      },
+      "fashion_mnist__smallcnn": {
+        "actual": 55,
+        "expected": 55,
+        "passed": true
+      }
+    },
+    "config_fingerprint_count": 1,
+    "environment_fingerprint_count": 1,
+    "failed_or_incomplete_runs": [],
+    "missing_files": [],
+    "protocol_counts": {
+      "cifar10/resnet18_small/main/baseline": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/resnet18_small/main/cei_lite": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/resnet18_small/main/cei_strict": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/resnet18_small/main/perturbed": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/resnet18_small/seed_generalization/cei_strict": {
+        "actual": 9,
+        "expected": 9,
+        "passed": true
+      },
+      "cifar10/resnet18_small/strong_perturbation/perturbed_loader_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      "cifar10/resnet18_small/strong_perturbation/perturbed_model_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      "cifar10/smallcnn/main/baseline": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/smallcnn/main/cei_lite": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/smallcnn/main/cei_strict": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/smallcnn/main/perturbed": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "cifar10/smallcnn/seed_generalization/cei_strict": {
+        "actual": 9,
+        "expected": 9,
+        "passed": true
+      },
+      "cifar10/smallcnn/strong_perturbation/perturbed_loader_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      "cifar10/smallcnn/strong_perturbation/perturbed_model_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      "fashion_mnist/resnet18_small/main/baseline": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/resnet18_small/main/cei_lite": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/resnet18_small/main/cei_strict": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/resnet18_small/main/perturbed": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/resnet18_small/seed_generalization/cei_strict": {
+        "actual": 9,
+        "expected": 9,
+        "passed": true
+      },
+      "fashion_mnist/resnet18_small/strong_perturbation/perturbed_loader_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      "fashion_mnist/resnet18_small/strong_perturbation/perturbed_model_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      "fashion_mnist/smallcnn/main/baseline": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/smallcnn/main/cei_lite": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/smallcnn/main/cei_strict": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/smallcnn/main/perturbed": {
+        "actual": 10,
+        "expected": 10,
+        "passed": true
+      },
+      "fashion_mnist/smallcnn/seed_generalization/cei_strict": {
+        "actual": 9,
+        "expected": 9,
+        "passed": true
+      },
+      "fashion_mnist/smallcnn/strong_perturbation/perturbed_loader_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      "fashion_mnist/smallcnn/strong_perturbation/perturbed_model_seed": {
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      }
+    },
+    "total_runs": {
+      "actual": 220,
+      "expected": 220,
+      "passed": true
+    }
+  },
+  "note": "Scientific expectation checks are reported separately from execution integrity; unexpected results remain valid research outcomes.",
+  "scientific_expectations_passed": true
+}

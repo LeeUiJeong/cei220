@@ -1,0 +1,9 @@
+데이터셋,모델,조건,실행 수,정확도,손실,모델 상태 해시
+cifar10,resnet18_small,perturbed_loader_seed,3,0.7194±0.0020,0.8653±0.0048,3(불일치)
+cifar10,resnet18_small,perturbed_model_seed,3,0.7590±0.0050,0.7170±0.0226,3(불일치)
+cifar10,smallcnn,perturbed_loader_seed,3,0.4434±0.0048,1.5269±0.0024,3(불일치)
+cifar10,smallcnn,perturbed_model_seed,3,0.4411±0.0069,1.5176±0.0181,3(불일치)
+fashion_mnist,resnet18_small,perturbed_loader_seed,3,0.9040±0.0047,0.2664±0.0128,3(불일치)
+fashion_mnist,resnet18_small,perturbed_model_seed,3,0.8979±0.0018,0.2766±0.0087,3(불일치)
+fashion_mnist,smallcnn,perturbed_loader_seed,3,0.7762±0.0078,0.6127±0.0117,3(불일치)
+fashion_mnist,smallcnn,perturbed_model_seed,3,0.7809±0.0092,0.6090±0.0217,3(불일치)

@@ -1,0 +1,2 @@
+environment_fingerprint,python,torch,torchvision,numpy,cuda_build,cudnn,gpu_name,nvidia_driver,code_fingerprint,config_fingerprint,run_count
+872b61248416570cb416c8997d2e4cb0a2978565c5ebef3047d49678e7c57180,3.10.20,2.11.0+cu128,0.26.0+cu128,2.2.5,12.8,91900,NVIDIA GeForce RTX 4090,591.86,621ff61f6bc58102025f5cb5abdc1cff9ea49e3e275145e288a7cbe6b6819a10,42df69e6040b0b96bd4ab3f64296df4f531b29440ed5606c492d0bd15fd041fd,220

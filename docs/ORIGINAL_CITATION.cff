@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated dissertation and the author's prior seed study."
+title: "CEI 220-Run Reference Implementation"
+type: software
+authors:
+  - family-names: "Lee"
+    given-names: "Uijeong"
+version: 1.0.0
+date-released: 2026-06-19

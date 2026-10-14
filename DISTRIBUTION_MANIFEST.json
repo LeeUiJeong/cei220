@@ -1,0 +1,374 @@
+{
+  "schema": "cei-github-distribution-v1",
+  "prepared_date": "2026-10-14",
+  "license_status": "MIT",
+  "github_published": false,
+  "original_experiment_replayed": false,
+  "original_model_audit_rerun": false,
+  "offline_test_count": 18,
+  "clean_network_dependency_install_tested": false,
+  "source_archive_sha256": "7de949cc46868ba765b27ee6d16a3cbce39686b2e61d399ca45cba1fd66f2c9e",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 84,
+      "sha256": "8fb7027b1905d693cab9b01b5799dfcd15e9f0b134d721d7d7318012d8d2b1a7"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 973,
+      "sha256": "781327b78a884cbcc87bcbcdb1f9a8842d990a244ee089ad7a19ab9f0780cbff"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "sha256": "4b38e4114833a5212e22d4f4016b5fd398b110203ca71ef7b73b29bb70560619"
+    },
+    {
+      "path": "audit/audit_model_state_hashes.py",
+      "bytes": 15494,
+      "sha256": "af1c76275d326fbba142838adf558cdb1cc1ff8d794e56f8426b0ce46ab3250a"
+    },
+    {
+      "path": "audit/CEI_220_Model_State_Rehash_Audit.ipynb",
+      "bytes": 5865,
+      "sha256": "88866f802406865a1ccdf5bd109d845b04a753ddb529165cabfe8ce86001a876"
+    },
+    {
+      "path": "audit/README.md",
+      "bytes": 2628,
+      "sha256": "b74bcda272e5b8cb6ab1870ad245bcf716e25e5494f02a956afda74fb0361cbe"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 336,
+      "sha256": "4c19d0ab389475c0bd302ec2f51168f2cfadbc6c52b019194571673c43365336"
+    },
+    {
+      "path": "configs/experiment_220.yaml",
+      "bytes": 1109,
+      "sha256": "7866aee0332d23562a81bbae1939392bbac9b4a3ae0029be4734ec9fa56b4789"
+    },
+    {
+      "path": "configs/smoke.yaml",
+      "bytes": 800,
+      "sha256": "6143ac56caa181b12265e5b2cd90290f8fae25713f365f6375e5239951068307"
+    },
+    {
+      "path": "docs/artifact_schema.md",
+      "bytes": 674,
+      "sha256": "765b76c547961c1641b27f09cd9b85ddd3be84aec9c4f524e6781f3168fbf99f"
+    },
+    {
+      "path": "docs/experiment_protocol.md",
+      "bytes": 879,
+      "sha256": "dd74e570fa6da200285fa337303ca93be8931f1063e0f41cd1124be70ad2b0c9"
+    },
+    {
+      "path": "docs/github_upload_checklist.md",
+      "bytes": 436,
+      "sha256": "eaa4d6d4b464b1ce1a1dd8de20d87bbec41cb7b46702cf1b35d6cbb391ec1bc1"
+    },
+    {
+      "path": "docs/ORIGINAL_CITATION.cff",
+      "bytes": 293,
+      "sha256": "ca86f5676e11b42624deff5d605b568aeb5b1de0e05953ac7bfd6e631e415990"
+    },
+    {
+      "path": "docs/PUBLICATION_CHECKLIST.md",
+      "bytes": 1843,
+      "sha256": "cc529e3e76104d01654315e4048ec952c9b24dc93ad488efa2ce7ee27b6e21c3"
+    },
+    {
+      "path": "docs/SOURCE_PROVENANCE.json",
+      "bytes": 22053,
+      "sha256": "5c9825d4888427c7ca2307ee9e1072ef23fd9712e2f2af7e7633ef79dbdf6df1"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 6345,
+      "sha256": "7c89e5b6fdb689e74cba4fc45ee5bfcd9af3d14fea76aca8616aeebbd68ef818"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 328,
+      "sha256": "3e575147bd53c04702cd669ee21f39d3f3e263b10633b89177d0c77660507f40"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "b94e5b08ca2b1f7a6a6cf23b1f05e72931db1b6a7072bcfa5b40d1d11aaf1814"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "bytes": 1615,
+      "sha256": "920b1de3fcfb0fa70e53742ece21d7e6052377cb28e2860128538a9b178f48ea"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 707,
+      "sha256": "d5b374282c5c2fb849c566023b5fdf98ab9df27a18f0640e5845ba497420af18"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7408,
+      "sha256": "b3ec53155a94d1f86887658fb297406c2c122980230ee6112b0d9231ae9a3f12"
+    },
+    {
+      "path": "README_KO.md",
+      "bytes": 4119,
+      "sha256": "4830c13afaca6d6d599d677fbbe9acc94cd9f75ab3ddb005a3115cca75581518"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/aggregate_metrics.csv",
+      "bytes": 172067,
+      "sha256": "c87c1ed4fb219d6975ce0e3f7b356be50d616bab3fd639d1dcd8c68593c1bd78"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/analysis_summary.json",
+      "bytes": 276,
+      "sha256": "df6d96bb7da9e12521bee4b94541e1c03366bcb52b743d72d90b9c06f8a27d9b"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/artifact_hashes.csv",
+      "bytes": 207630,
+      "sha256": "c5b327547cab1adc0660b2a3ee9cd788c8330402d779bd70362d6571a5ae8b8d"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/environment_by_run.csv",
+      "bytes": 87613,
+      "sha256": "e79288794df11955a4935f11b4c0e9b70ea0bcf09cc40cc05fba1039c9e9a947"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/environment_summary.csv",
+      "bytes": 424,
+      "sha256": "af962ec263541fb751618529147f37da8a9f6442f4939f5df40fe7d220b3da0e"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/hash_summary_by_artifact.csv",
+      "bytes": 14435,
+      "sha256": "23f4727a72c48f49e1b26a63bd08a249673c0b443463c2840f7149474dcc5a3a"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/model_state_rehash_audit.csv",
+      "bytes": 189166,
+      "sha256": "de741d17c36799d368c0a710104e911bd0a0fbd343859c402e388b275f579f05"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/model_state_rehash_group_summary.csv",
+      "bytes": 3184,
+      "sha256": "074b555c55434350ad1553e532425872ff6b79b0b6eb5d999f7159cbf9f589b7"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/model_state_rehash_mismatches.csv",
+      "bytes": 410,
+      "sha256": "dba117efa2de54fa2e52231583ba5832adee2418c0f20bab60f4ec786989b229"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/model_state_rehash_summary.json",
+      "bytes": 1746,
+      "sha256": "52b4c6e97fe27d50331519f8064812d51e96d8ce284101a9aee971f1a9a5d9ce"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/policy_events.csv",
+      "bytes": 23045,
+      "sha256": "7a6da2cf0ebbd4b36b552ddd57f048aed35f6622008615738b3e2a7a14a97678"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/run_manifest.json",
+      "bytes": 160169,
+      "sha256": "ce3b4b9cbd980845d14e6d67660a245b17d0c975da29467db5174ee5b7031ca7"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/seed_generalization_by_seed.csv",
+      "bytes": 1164,
+      "sha256": "58e14276848bdb112cba1b0ff123edf3a9a0479b302c9f258d4970d58ee6c05a"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/summary_by_condition.csv",
+      "bytes": 4827,
+      "sha256": "04530f48768999fcaf9a22db3b3cd516607ee4e029105ec41ebf6e38c194d3c8"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/table_main_kr.csv",
+      "bytes": 1639,
+      "sha256": "0ac55f83a9fbc0cea1307a07062687b0760a626aa553f70fe68b053028222d0c"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/table_seed_generalization_kr.csv",
+      "bytes": 984,
+      "sha256": "5dd4ffe77cb65aa6939b01fd54128461d5bb5143e2291a8074d8b5d2d6cd2476"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/table_strong_perturbation_kr.csv",
+      "bytes": 801,
+      "sha256": "3f295dfdb1cd427bf4d7fc708af08454772dff6622b95bcb79df8c2ac6e8d478"
+    },
+    {
+      "path": "reference_results/cei_220_reference_v1/verification_report.json",
+      "bytes": 13283,
+      "sha256": "f5857cfc8b7fa1c18b2bfddabb6e4e70ed2b6ce1e5844043712b55a812e65c70"
+    },
+    {
+      "path": "reference_results/README.md",
+      "bytes": 1425,
+      "sha256": "1935fc216839bbd8d6d75765d2bd5987310154d1b90eb92b8766abb3121e0568"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 4713,
+      "sha256": "25d544ca03cc1b1876291e1d0879d44ee437337d52f65bc3b4f7a9799f05588e"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 175,
+      "sha256": "f5017f8467dd207bd42cc256f30304b649d84897e88ab2a0d19a5d01db75f809"
+    },
+    {
+      "path": "scripts/_bootstrap.py",
+      "bytes": 213,
+      "sha256": "db15196fcd81a9ad3ec20e8de02acb3a97c32284d6785d9cfcac7f54f09bbc04"
+    },
+    {
+      "path": "scripts/analyze.py",
+      "bytes": 499,
+      "sha256": "db2db80ab6fbf2a2eeae1f0572000885f8a5bcd48d2daaba1351de71cb476c16"
+    },
+    {
+      "path": "scripts/check_environment.py",
+      "bytes": 895,
+      "sha256": "e3dfc1ccdd826f8d55c20b7b422631fb7f354cedc4217bd76b9d6a5339a6dd00"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "bytes": 918,
+      "sha256": "cb0bcc6a664a087bff6dfbad32b596746ed24cb675e7a8d3138607cef3d83b5c"
+    },
+    {
+      "path": "scripts/run_all.py",
+      "bytes": 4717,
+      "sha256": "ff3b48c44f959c0fc7d7b43f7bfbdab7c4099295ca05085ed898175ee95565b1"
+    },
+    {
+      "path": "scripts/run_one.py",
+      "bytes": 1857,
+      "sha256": "cb6e2a7ef467743e38e82617af9c67d4de7fa09b8b2bcd4237e88dcaf851cf0c"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "bytes": 1164,
+      "sha256": "c54738af725538ded8346ad9108b17f374c5482f0429e200866b40ab342063fe"
+    },
+    {
+      "path": "scripts/verify.py",
+      "bytes": 647,
+      "sha256": "e46782d2d779d4c28ee186d0fa32c58323f6f8f9ed1442effebda1938cff5a3a"
+    },
+    {
+      "path": "src/cei220/__init__.py",
+      "bytes": 90,
+      "sha256": "9b563b151912c8a4e9484d4ea0147cd9e8a742f8916b3a5df38534b6669de455"
+    },
+    {
+      "path": "src/cei220/analysis.py",
+      "bytes": 10638,
+      "sha256": "ed5bdadf2da88cdb94b2e59b5b2730833d63d7dd6b62377b582d146ef85c9977"
+    },
+    {
+      "path": "src/cei220/artifacts.py",
+      "bytes": 1120,
+      "sha256": "622066f5ce418e5716617a7a24c20c7dbbca2adaa021b21ee6ad13c8fcde42f7"
+    },
+    {
+      "path": "src/cei220/config.py",
+      "bytes": 2316,
+      "sha256": "f38fad81a50da6976125d92a1f7e1e6ba7e38de4131ad04a6737816ab28ac40b"
+    },
+    {
+      "path": "src/cei220/data.py",
+      "bytes": 5180,
+      "sha256": "e83c74520a43006938bd6d63f885b878aa222436012a5b943a87fd67380b147a"
+    },
+    {
+      "path": "src/cei220/environment.py",
+      "bytes": 4582,
+      "sha256": "11b071ae08eb6d961eb5ca11e0234f7c0411594f5008a7b3a2f0b8b59e71d9a6"
+    },
+    {
+      "path": "src/cei220/hashing.py",
+      "bytes": 800,
+      "sha256": "91ee336b733f25296f2cd4626a94a946b38e970bbd9a94698793a35c0ed3db7f"
+    },
+    {
+      "path": "src/cei220/jobs.py",
+      "bytes": 3187,
+      "sha256": "fc388d05f72c193476832bed181e86c4fc32911427ad743ba703ab34a613020b"
+    },
+    {
+      "path": "src/cei220/models.py",
+      "bytes": 1610,
+      "sha256": "12873bc57c8eac251b473e4d645b946fc3d79fd01d827badf68ec45ec210b11e"
+    },
+    {
+      "path": "src/cei220/policy.py",
+      "bytes": 4144,
+      "sha256": "2452031daa7366ce4a8a931f6f76992d6399022493c5bf70501c364fd58a55f6"
+    },
+    {
+      "path": "src/cei220/seeds.py",
+      "bytes": 4973,
+      "sha256": "7bd2b5ea6b9f7c7c4e4833b8cd34b63b05133f262a5957ae1088b8287a76f805"
+    },
+    {
+      "path": "src/cei220/trainer.py",
+      "bytes": 12424,
+      "sha256": "3e733ce987b3b82ff9897def314292322eb72cc68ae281a6829ed724a118e47d"
+    },
+    {
+      "path": "src/cei220/verification.py",
+      "bytes": 6230,
+      "sha256": "454bde005a0dd61311df61904026cd04a230881436aa09f0454bd8d8774e3404"
+    },
+    {
+      "path": "tests/test_distribution.py",
+      "bytes": 10953,
+      "sha256": "80c9a596d9846d749b14650c7863e60ba4617217103cbfc669303ad79a8214fd"
+    },
+    {
+      "path": "tests/test_hashing.py",
+      "bytes": 523,
+      "sha256": "a3e69057bd94a4a97f9a073796d0065f3fdb7a1897089e35b4ddb200fbc4f5da"
+    },
+    {
+      "path": "tests/test_jobs.py",
+      "bytes": 517,
+      "sha256": "21da3e4ec46c754f32e1a9a2f027f03e850fe7934166af20cbb9ba327f830374"
+    },
+    {
+      "path": "tests/test_policy.py",
+      "bytes": 613,
+      "sha256": "c6fa292186333f17c1eefdb58add726bdf15a03301c87ff86896f2e25b42b5a3"
+    },
+    {
+      "path": "tests/test_seeds.py",
+      "bytes": 722,
+      "sha256": "29964150a7905a468af543ae70804b3c0d8d0dbba0d2018bbc79cf1306b70ee4"
+    },
+    {
+      "path": "tools/check_distribution.py",
+      "bytes": 3342,
+      "sha256": "49e1b929525f60dd849e9037a042268b87abb529c5f3e22fbc9ce3b27cc4cde0"
+    }
+  ],
+  "self_excluded_from_file_hashes": true,
+  "distribution_revision": 4,
+  "previous_distribution_sha256": "d31c583ee972ce26c32ea93bb07b591d5731ebf4751b53b0c145c1b94ecb4c69",
+  "license": "MIT",
+  "copyright_holder": "Uijeong Lee",
+  "license_scope": "project_code_and_accompanying_software_documentation",
+  "repository_url": "https://github.com/LeeUiJeong/cei220",
+  "repository_created": true,
+  "publication_status_at_preparation": "empty_repository_created_files_not_uploaded",
+  "release_tag": null,
+  "release_date": null
+}

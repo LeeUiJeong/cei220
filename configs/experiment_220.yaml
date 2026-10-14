@@ -1,0 +1,47 @@
+project:
+  experiment_name: cei_220_reference_v1
+  output_root: results
+  data_root: data
+  artifact_schema_version: cei-artifact-v1
+  seed_derivation_version: cei-seed-v1
+  namespace_version: cei-namespace-v1
+  hkdf_salt: cei-v1
+
+runtime:
+  device: cuda
+  batch_size: 128
+  epochs: 3
+  learning_rate: 0.001
+  num_workers: 0
+  pin_memory: true
+  optimizer: adam
+  weight_decay: 0.0
+  external_seed: 20236573
+  seed_generalization_seeds: [20236573, 20236574, 20236575]
+  main_runs: 10
+  seed_runs_per_seed: 3
+  perturbation_runs: 3
+  cublas_workspace_config: ":4096:8"
+
+protocol:
+  main_modes: [baseline, cei_lite, cei_strict, perturbed]
+  seed_generalization_mode: cei_strict
+  strong_perturbation_modes: [perturbed_loader_seed, perturbed_model_seed]
+
+matrix:
+  - dataset: cifar10
+    model: smallcnn
+  - dataset: cifar10
+    model: resnet18_small
+  - dataset: fashion_mnist
+    model: smallcnn
+  - dataset: fashion_mnist
+    model: resnet18_small
+
+expected_environment:
+  python_prefix: "3.10."
+  torch_prefix: "2.11.0"
+  torchvision_prefix: "0.26.0"
+  cuda: "12.8"
+  cudnn: 91900
+  gpu_contains: "RTX 4090"

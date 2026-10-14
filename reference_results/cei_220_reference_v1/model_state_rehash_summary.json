@@ -1,0 +1,30 @@
+{
+  "aggregate_hash_matches": 220,
+  "aggregate_metrics": "C:\\Users\\User\\CEI_220_Reference_Implementation\\CEI_220_Reference_Implementation\\results\\cei_220_reference_v1\\aggregate_metrics.csv",
+  "all_passed": true,
+  "audit_failed_runs": 0,
+  "audit_name": "CEI 220 model-state independent rehash audit",
+  "audit_passed_runs": 220,
+  "elapsed_minutes": 0.6339332466663715,
+  "elapsed_seconds": 38.03599479998229,
+  "error_runs": 0,
+  "expected_runs": 220,
+  "file_sha256_matches": 220,
+  "group_count": 36,
+  "hashes_json_matches": 220,
+  "metrics_hash_matches": 220,
+  "model_files_found": 220,
+  "model_files_loaded": 220,
+  "outputs": {
+    "group_summary_csv": "C:\\Users\\User\\CEI_220_Reference_Implementation\\CEI_220_Reference_Implementation\\results\\cei_220_reference_v1\\model_state_rehash_group_summary.csv",
+    "mismatch_csv": "C:\\Users\\User\\CEI_220_Reference_Implementation\\CEI_220_Reference_Implementation\\results\\cei_220_reference_v1\\model_state_rehash_mismatches.csv",
+    "run_audit_csv": "C:\\Users\\User\\CEI_220_Reference_Implementation\\CEI_220_Reference_Implementation\\results\\cei_220_reference_v1\\model_state_rehash_audit.csv",
+    "summary_json": "C:\\Users\\User\\CEI_220_Reference_Implementation\\CEI_220_Reference_Implementation\\results\\cei_220_reference_v1\\model_state_rehash_summary.json"
+  },
+  "project_root": "C:\\Users\\User\\CEI_220_Reference_Implementation\\CEI_220_Reference_Implementation",
+  "python": "3.10.20",
+  "pytorch": "2.11.0+cu128",
+  "recorded_state_hash_sources_agree": 220,
+  "result_root": "C:\\Users\\User\\CEI_220_Reference_Implementation\\CEI_220_Reference_Implementation\\results\\cei_220_reference_v1",
+  "rows_in_aggregate_metrics": 220
+}
